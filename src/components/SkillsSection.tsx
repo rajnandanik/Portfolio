@@ -2,15 +2,14 @@ import { motion } from "framer-motion";
 import SectionReveal from "./SectionReveal";
 
 const skills = [
-  { name: "React / Next.js", level: 95 },
-  { name: "TypeScript", level: 90 },
-  { name: "Node.js / Express", level: 88 },
-  { name: "Java / Spring Boot", level: 82 },
-  { name: "Python", level: 78 },
-  { name: "MongoDB / PostgreSQL", level: 85 },
-  { name: "Docker / Kubernetes", level: 80 },
-  { name: "AWS / Cloud", level: 75 },
-];
+  { name: "React", level: 75 },
+  { name: "JavaScript", level: 90 },
+  { name: "Node.js / Express", level: 80 },
+  { name: "Java / Spring Boot", level: 85 },
+  { name: "Python", level: 70 },
+  { name: "MongoDB", level: 70 },
+  { name: "Docker", level: 50 },
+  ];
 
 const SkillsSection = () => {
   return (

@@ -37,7 +37,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1IrDVOTkg-o2DDM_kloHnE4cZ97lHMyVH/view?usp=sharing"
             className="px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Resume

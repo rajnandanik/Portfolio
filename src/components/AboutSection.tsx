@@ -3,12 +3,12 @@ import SectionReveal from "./SectionReveal";
 import { Code2, Server, Cloud, Database, Cpu, Globe } from "lucide-react";
 
 const skills = [
-  { icon: Code2, label: "Frontend", desc: "React, TypeScript, Tailwind" },
-  { icon: Server, label: "Backend", desc: "Node.js, Express, Spring Boot" },
-  { icon: Database, label: "Database", desc: "MongoDB, MySQL, PostgreSQL" },
-  { icon: Cloud, label: "Cloud", desc: "AWS, Docker, Kubernetes" },
-  { icon: Cpu, label: "DevOps", desc: "CI/CD, GitHub Actions" },
-  { icon: Globe, label: "API Design", desc: "REST, GraphQL, WebSockets" },
+  { icon: Code2, label: "Frontend", desc: "React, JavaScript, Tailwind," },
+  { icon: Server, label: "Backend", desc: "Node.js, Java, Spring Boot" },
+  { icon: Database, label: "Database", desc: "MongoDB, MySQL" },
+  { icon: Cloud, label: "Cloud", desc: "Docker" },
+  { icon: Cpu, label: "DevOps", desc: "GitHub Actions" },
+  { icon: Globe, label: "API Design", desc: "REST" },
 ];
 
 const AboutSection = () => {
@@ -21,10 +21,11 @@ const AboutSection = () => {
             Passionate about building <span className="text-gradient">digital experiences</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg leading-relaxed mb-16">
-            I'm a full stack developer with 5+ years of experience crafting high-performance
-            web applications. I specialize in building scalable backends, beautiful frontends,
-            and everything in between. Currently focused on cloud-native architectures and
-            developer experience.
+            I am a Full Stack Developer passionate about building high-performance and scalable web applications. 
+            I enjoy working across the stack — from designing responsive, user-friendly frontends to developing 
+            robust and efficient backend systems.
+            Currently, I am focused on strengthening my skills in modern web technologies, cloud fundamentals, 
+            and writing clean, maintainable code.
           </p>
         </SectionReveal>
 

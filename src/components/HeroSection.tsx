@@ -7,8 +7,7 @@ import { ArrowDown, ExternalLink, Mail } from "lucide-react";
 const roles = [
   "Full Stack Developer",
   "Backend Engineer",
-  "Cloud Architect",
-  "System Designer",
+  "Frontend Developer",
   "Open Source Contributor",
 ];
 
@@ -66,7 +65,7 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold font-display mb-6 leading-tight"
         >
-          <span className="text-gradient">John Doe</span>
+          <span className="text-gradient">Rajnandani Kumari</span>
         </motion.h1>
 
         <motion.div

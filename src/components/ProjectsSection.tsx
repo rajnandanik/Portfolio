@@ -5,40 +5,44 @@ import { ExternalLink, Github, X } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack marketplace with real-time inventory, Stripe payments, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+     title: "Instagram Clone (Full Stack Application)",
+    description: "Feature-rich social media platform with authentication, posts, likes, comments, and follow system.",
+    image: "YOUR_IMAGE_URL",
+    tags: ["React", "Redux", "Spring Boot", "MySQL"],
     demo: "#",
     github: "#",
-    details: "Built with microservices architecture, supporting 10K+ concurrent users with Redis caching and WebSocket notifications.",
+    details:
+      "Built a full-stack Instagram clone using React, Redux, Spring Boot, and MySQL. Implemented JWT-based authentication, RESTful APIs, post management, and follow functionality. Designed responsive UI using Chakra UI and Tailwind CSS. Applied layered architecture and exception handling on backend."
   },
   {
-    title: "AI Analytics Dashboard",
-    description: "Real-time data visualization platform with ML-powered insights and predictive analytics.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    tags: ["React", "Python", "TensorFlow", "D3.js"],
-    demo: "#",
-    github: "#",
-    details: "Processes 1M+ data points per day with custom ML models for anomaly detection and trend forecasting.",
+    title: "AI Support Chatbot",
+  description: "Full-stack AI-powered customer support chatbot with LLM fallback and real-time admin controls.",
+  image: "https://github.com/rajnandanik/CHATBOT/blob/main/assets/preview.png.png?raw=true",
+  tags: ["React", "Node.js", "MongoDB", "JWT", "TailwindCSS"],
+  demo: "https://chatassistance.netlify.app",
+  github: "https://github.com/rajnandanik/CHATBOT",
+  details:
+    "Developed an AI-powered support chatbot using React, Node.js, and MongoDB with JWT-based authentication. Integrated OpenRouter (Claude) as a fallback LLM to handle complex queries, reducing manual support handling time by 30%. Implemented FAQ-based semantic search, file upload capability, and a real-time admin dashboard for managing chatbot content."
   },
   {
-    title: "DevOps Pipeline Tool",
-    description: "Automated CI/CD platform with container orchestration and monitoring.",
-    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=400&fit=crop",
-    tags: ["Go", "Docker", "Kubernetes", "Terraform"],
-    demo: "#",
-    github: "#",
-    details: "Reduced deployment time by 80% with automated testing, canary deployments, and rollback capabilities.",
+     title: "Overflow – Stack Overflow Clone",
+    description: "Developer Q&A platform built with Next.js and Appwrite featuring authentication, SSR, and optimized performance.",
+    image: "https://github.com/rajnandanik/overflow/blob/main/assets/preview.png.png?raw=true",
+    tags: ["Next.js", "Appwrite", "TailwindCSS", "Zustand"],
+    demo: "https://overflow-sa9t-git-main-bikram-singhs-projects-45376413.vercel.app/",
+    github: "https://github.com/rajnandanik/overflow",
+    details:
+      "Built a full-stack Q&A platform using Next.js with Server-Side Rendering (SSR), reducing page load time by 33% and improving SEO. Integrated Appwrite for authentication and database management, accelerating backend development. Implemented responsive UI using TailwindCSS and MagicUI, with Zustand for efficient state management."
   },
   {
-    title: "Social Media API",
-    description: "High-performance REST API serving millions of requests with GraphQL support.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
-    tags: ["Spring Boot", "MySQL", "Redis", "GraphQL"],
-    demo: "#",
-    github: "#",
-    details: "Handles 50K requests/second with horizontal scaling, rate limiting, and comprehensive API documentation.",
+    title: "Fetal Health Prediction System",
+    description: "Machine learning-based healthcare prediction system with real-time visualization.",
+    image: "https://github.com/rajnandanik/fetal-health-prediction/blob/main/assets/preview.png.png?raw=true",
+    tags: ["Python", "Machine Learning", "Streamlit", "Docker"],
+    demo: "https://fetal-health-prediction-oebsywmnbgtsoc6opipfml.streamlit.app/",
+    github: "https://github.com/rajnandanik/fetal-health-prediction",
+    details:
+      "Built a machine learning model to classify fetal health conditions (Normal, Suspicious, Pathological) with 84% accuracy. Compared multiple algorithms and optimized model performance. Deployed as a Dockerized Streamlit web application with real-time visualization."
   },
 ];
 

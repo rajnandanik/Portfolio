@@ -3,34 +3,23 @@ import SectionReveal from "./SectionReveal";
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const timeline = [
+  
   {
-    type: "work",
-    title: "Senior Full Stack Developer",
-    org: "TechCorp Inc.",
-    period: "2022 – Present",
-    desc: "Leading development of microservices architecture serving 2M+ users. Mentoring junior devs and driving CI/CD best practices.",
-  },
-  {
-    type: "work",
-    title: "Full Stack Developer",
-    org: "StartupXYZ",
-    period: "2020 – 2022",
-    desc: "Built core product from 0 to 1. Implemented real-time features, payment integration, and scalable API design.",
-  },
+    
+  type: "work",
+  title: "Backend Development Fellowship",
+  org: "Airtribe",
+  period: "2024 – 2025 (6 Months)",
+  desc: "Hands-on training in Java, Spring Boot, RESTful API design, database modeling, authentication (JWT), and system architecture. Developed full-stack backend projects including a News Aggregator system with caching and user preference management, and a Smart Email Assistant with automated email classification logic."
+},
   {
     type: "education",
-    title: "B.S. Computer Science",
-    org: "State University",
-    period: "2016 – 2020",
+    title: "B.E. Information Science",
+    org: "Don Bosco Institute of Technology, Bangalore",
+    period: "2021 – 2025",
     desc: "Graduated with honors. Focus on distributed systems, algorithms, and software engineering.",
   },
-  {
-    type: "work",
-    title: "Software Engineering Intern",
-    org: "BigTech Co.",
-    period: "Summer 2019",
-    desc: "Developed internal tools that improved team productivity by 40%. First exposure to large-scale systems.",
-  },
+  
 ];
 
 const ExperienceSection = () => {
@@ -40,7 +29,7 @@ const ExperienceSection = () => {
         <SectionReveal>
           <p className="text-primary font-mono text-sm tracking-widest uppercase mb-3">Journey</p>
           <h2 className="text-3xl md:text-5xl font-bold font-display mb-12">
-            Experience & <span className="text-gradient">Education</span>
+            Training & <span className="text-gradient">Education</span>
           </h2>
         </SectionReveal>
 
